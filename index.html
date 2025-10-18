@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Three.js 跳跃游戏</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="game-container">
+        <div id="ui-overlay">
+            <div id="score">得分: 0</div>
+            <div id="game-info">
+                <h1>Three.js 跳跃游戏</h1>
+                <p>按空格键跳跃，避开红色障碍物！</p>
+                <p>收集黄色金币获得分数</p>
+                <button id="start-button">开始游戏</button>
+            </div>
+            <div id="game-over" style="display: none;">
+                <h2>游戏结束！</h2>
+                <p id="final-score"></p>
+                <button id="restart-button">重新开始</button>
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="game.js"></script>
+</body>
+</html>

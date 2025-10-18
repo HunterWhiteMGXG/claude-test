@@ -1,0 +1,21 @@
+{
+  "name": "threejs-jump-game",
+  "version": "1.0.0",
+  "description": "一个使用Three.js开发的3D跳跃小游戏",
+  "main": "game.js",
+  "scripts": {
+    "start": "npx serve .",
+    "dev": "npx live-server ."
+  },
+  "keywords": [
+    "threejs",
+    "game",
+    "3d",
+    "javascript"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
+}
